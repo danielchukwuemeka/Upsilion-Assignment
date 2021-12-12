@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *,
+        body.body {
+            margin: 0;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            box-sizing: border-box;
+        }
+
+        #main-container {
+            width: 100%;
+            padding: 20px;
+            align-items: center;
+            background-color: #fdf9bd;
+        }
+
+
+        @media screen and (min-width: 800px) {
+            #main-container {
+                width: 800px;
+                padding: 20px;
+                margin: 0 auto;
+            }
+        }
+
+        div.header-container {
+            display: flex;
+            justify-content: space-between;
+            /* background-color: rgb(59, 182, 253); */
+            /* padding: 10px; */
+        }   
+
+        img.profile-picture {
+            height: 100px;
+            width: auto;
+            border-radius: 20px;
+            box-shadow: #000;
+        }
+
+        h1.my-name {
+            font-weight: 600;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+
+        h4.title {
+            font-weight: 400;
+            font-size: 20px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+
+        @media screen and (max-width: 500px) {
+            h1.my-name {
+                font-size: 25px;
+            }
+
+            h4.title {
+                font-size: 15px;
+            }
+        }  
+
+        h3.heading {
+            margin-bottom: 20px;
+            font-weight: 600;
+        }
+
+        h3.heading:not(first-child) {
+            margin-top: 20px;
+        }
+
+        h3.objectives {
+            margin-top: 0 !important;
+        }
+
+        ul.education {
+            list-style-type: disc;
+        }
+    </style>
+</head>
+<body class="body">
+    <div id="main-container">
+        <div class="header-container">
+            <div class="header-content Begining">
+                <!-- My neme and proffsion -->
+                <h1 class="my-name">Ukah Daniel Chukwuemeka</h1>
+                <h4 class="title">Fullstack Developer</h4>
+            </div>
+
+            <div class="header-content image">
+                <!-- my profile picture -->
+                <img src="./images/pictuer.jpg" alt="my profile photo" class="profile-picture">
+            </div>
+        </div>
+        <div class="container-fluid" id="body-contents">
+            <!-- contents of the body -->
+            <diV class="objectives">
+                <!-- My objectives-->
+                <h3 class="heading objectives">Objectives:</h3>
+                <p>
+                    Having been endowed with the knowledge of programing and being opportuned to have and edge in the programing realm I have devoted my time to helping companies around the globe improve thier online presence and thier relationship with thier customers.
+                </p>
+            </diV>
+
+            <diV>
+                <!-- My educational Background -->
+                <h3 class="heading">Background:</h3>
+                <ul>
+                    <li class="education">Nursery Education: Annunciation Nursery and Primary School (2005 -- 2007)</li>
+                    <li class="education">Primary Education: Annunciation Nursery and Primary School (2007 -- 2013)</li>
+                    <li class="education">Secondary Education: St. Augustine's Seminary Ezzamgbo (2013 -- 2019)</li>
+                    <li class="education">Tetiary Education: Godfrey Okoye University, Emene, Enugu (2020 -- 2024)</li>
+                </ul>
+            </diV>
+
+            <diV>
+                <!-- The skills that i posses at this moment -->
+                <h3 class="heading">Skill Set:</h3>
+                <ol>
+                    <li>I have the knowledge of HTML, CSS, JAVASCRIPT, BOOTSTRAP, JQUERY, PHP</li>
+                    <li>I am a wonderful typist with and average speed of 40 words per munite</li>
+                    <li>I have the knowledge of Hardware Repairs</li>
+                    <li>I am a graphics Designer with a skillful knowledge of Corel Draw</li>
+                    <li>I play Handball</li>
+                </ol>
+            </diV>
+
+            <diV>
+                <!-- proposed projects -->
+                <h3 class="heading">Prospective Projects</h3>
+                <ol>
+                    <li>To create a Popular Social media in which users would be able to earn from the plaform</li>
+                    <li>Creating a good colaboration software to help promote remote working and collaboration</li>
+                    <li>creating a learning platform where users can interact with one another and share thier ideas</li>
+                </ol>
+            </diV>
+        </div>
+    </div>
+</body>
+</html>
